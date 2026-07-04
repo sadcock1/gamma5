@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "gamma5",
+  "version": "${version}",
+  "name": "Gamma5",
+  "description": "Unlocks the vanilla gamma/brightness slider up to 500%, and makes options.txt respect it.",
+  "authors": ["s1a"],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "mixins": [
+    "gamma5.mixins.json",
+    "gamma5.mixins.sodium.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "26.2"
+  },
+  "recommends": {
+    "sodium": "*"
+  }
+}

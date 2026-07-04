@@ -1,0 +1,9 @@
+build/
+.gradle/
+run/
+.idea/
+*.iml
+out/
+
+# reference source dumps, not part of this mod
+*.zip
